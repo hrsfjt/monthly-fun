@@ -1,0 +1,22 @@
+{
+  "title": "Chart.js Multitype Chart",
+  "labels": ["January", "February", "March", "April", "May", "June", "July"],
+  "datasets": [
+    {
+      "type": "line",
+      "label": "Dataset 1",
+      "data": [10, 200, 120, 80, 40, 50, 60],
+      "borderWidth": 2,
+      "fill": false,
+      "borderColor": "rgb(255, 99, 132)"
+    },
+    {
+      "type": "bar",
+      "label": "Dataset 2",
+      "data": [40, 100, 50, 30, 100, 80, 20],
+      "borderWidth": 2,
+      "borderColor": "white",
+      "backgroundColor": "rgb(75, 192, 192)"
+    }
+  ]
+}
