@@ -12,7 +12,7 @@ import {
   Title,
 } from 'chart.js'
 import Header from './components/Header'
-import AppContanier from './components/AppContanier'
+import AppContanier from './pages/AppContanier'
 
 ChartJS.register(
   CategoryScale,

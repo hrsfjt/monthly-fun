@@ -14,6 +14,7 @@ class MultitypeChart extends React.Component {
           text: this.props.title,
         },
       },
+      scales: this.props.scales,
     }
 
     const data = {
