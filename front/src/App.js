@@ -1,6 +1,5 @@
 import React from 'react'
 import './App.css'
-import Header from './components/Header'
 import {
   Chart as ChartJS,
   LinearScale,
@@ -12,8 +11,8 @@ import {
   Tooltip,
   Title,
 } from 'chart.js'
-import LineGraph from './components/LineGraph'
-import MultitypeChart from './components/MultitypeChart'
+import Header from './components/Header'
+import AppContanier from './pages/AppContanier'
 
 ChartJS.register(
   CategoryScale,
@@ -36,8 +35,7 @@ class App extends React.Component {
     return (
       <div className="container">
         <Header title={this.state.title} />
-        <LineGraph></LineGraph>
-        <MultitypeChart></MultitypeChart>
+        <AppContanier></AppContanier>
       </div>
     )
   }

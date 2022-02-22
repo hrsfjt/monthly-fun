@@ -1,0 +1,44 @@
+{
+  "title": "Income Chart",
+  "labels": ["January", "February", "March", "April", "May", "June", "July"],
+  "datasets": [
+    {
+      "type": "line",
+      "label": "Overtime allowance",
+      "data": [100000, 150000, 200000, 80000, 110000, 160000, 80000],
+      "borderWidth": 2,
+      "fill": false,
+      "borderColor": "rgb(255, 99, 132)"
+    },
+    {
+      "type": "bar",
+      "label": "Salary",
+      "data": [600000, 620000, 660000, 610000, 630000, 700000, 650000],
+      "borderWidth": 2,
+      "borderColor": "white",
+      "backgroundColor": "rgb(75, 192, 192)",
+      "stack": "salary-1"
+    },
+    {
+      "type": "bar",
+      "label": "Side business",
+      "data": [100000, 100000, 100000, 110000, 130000, 70000, 50000],
+      "borderWidth": 2,
+      "borderColor": "white",
+      "backgroundColor": "rgb(250, 215, 160)",
+      "stack": "salary-1"
+    }
+  ],
+  "scales": {
+    "y": {
+      "stacked": true,
+      "display": true,
+      "suggestedMin": 0,
+      "suggestedMax": 800000,
+      "beginAtZero": true,
+      "ticks": {
+        "stepSize": 100000
+      }
+    }
+  }
+}
